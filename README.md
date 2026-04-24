@@ -12,7 +12,7 @@ A single-file WPF PowerShell tool that captures a Windows device's Autopilot har
 <img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/2465d2ed-a712-42d8-b203-d0e69cc29435" />
 
 
-**What it does in one paragraph.** On first launch it spins up its own Entra app registration (with the minimum Graph permissions for Autopilot), encrypts the client secret with a passphrase you choose, and saves the config next to the script. On every run after that it captures the hardware hash from WMI, uploads it to Intune, and polls until the deployment profile is actually assigned — translating Graph state codes into plain English along the way. The config + passphrase are fully portable: the same USB stick unlocks the tool on any Windows machine.
+**What it does?.** On first launch it spins up its own Entra app registration (with the minimum Graph permissions for Autopilot), encrypts the client secret with a passphrase you choose, and saves the config next to the script. On every run after that it captures the hardware hash from WMI, uploads it to Intune, and polls until the deployment profile is actually assigned — translating Graph state codes into plain English along the way. The config + passphrase are fully portable: the same USB stick unlocks the tool on any Windows machine.
 
 ---
 
