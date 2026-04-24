@@ -21,7 +21,7 @@ A single-file WPF PowerShell tool that captures a Windows device's Autopilot har
 <!-- SCREENSHOT: Settings tab with Group Tag / Tenant ID fields visible -->
 <img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/37e3de85-ddb1-4a89-b344-d4992d341023" />
 
-
+---
 
 <!-- SCREENSHOT: About tab showing the details card and "What's new in v2.0" -->
 <img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/9a2ac45d-238c-4b12-b95c-3be4871f585c" />
