@@ -9,7 +9,8 @@ A single-file WPF PowerShell tool that captures a Windows device's Autopilot har
 ## At a glance
 
 <!-- SCREENSHOT: hero shot of the Hash Upload tab mid-run (phase stepper lit, console showing "Profile → assigned and in sync") -->
-![Hash Upload tab — run in progress](./docs/screenshots/01-hash-upload-running.png)
+<img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/2465d2ed-a712-42d8-b203-d0e69cc29435" />
+
 
 **What it does in one paragraph.** On first launch it spins up its own Entra app registration (with the minimum Graph permissions for Autopilot), encrypts the client secret with a passphrase you choose, and saves the config next to the script. On every run after that it captures the hardware hash from WMI, uploads it to Intune, and polls until the deployment profile is actually assigned — translating Graph state codes into plain English along the way. The config + passphrase are fully portable: the same USB stick unlocks the tool on any Windows machine.
 
@@ -18,10 +19,12 @@ A single-file WPF PowerShell tool that captures a Windows device's Autopilot har
 ## The UI
 
 <!-- SCREENSHOT: Settings tab with Group Tag / Tenant ID fields visible -->
-![Settings tab](./docs/screenshots/02-settings.png)
+![Settings tab](<img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/37e3de85-ddb1-4a89-b344-d4992d341023" />
+)
 
 <!-- SCREENSHOT: About tab showing the details card and "What's new in v2.0" -->
-![About tab](./docs/screenshots/03-about.png)
+![About tab](<img width="1818" height="1430" alt="image" src="https://github.com/user-attachments/assets/9a2ac45d-238c-4b12-b95c-3be4871f585c" />
+)
 
 Three tabs:
 - **Hash Upload** — device info card, 4-phase stepper, live console, progress bar, Start / Abort / Close.
